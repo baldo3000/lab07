@@ -8,7 +8,7 @@ import java.util.Objects;
  */
 public final class MonthSorterNested implements MonthSorter {
 
-    private enum Month {
+    private static enum Month {
         JANUARY(31),
         FEBRUARY(28),
         MARCH(31),
